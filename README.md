@@ -1,6 +1,6 @@
 # DateTimeOffset &nbsp;vs.&nbsp; DateTime
 
-### Comparison of DateTimeOffset with DateTime 
+### Comparison of DateTimeOffset and DateTime 
 
 * Difference between DateTimeOffset and DateTime
 * Conversions between DateTimeOffset and DateTime
