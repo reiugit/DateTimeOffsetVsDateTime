@@ -5,5 +5,5 @@ ___
 
 * Difference between DateTimeOffset and DateTime
 * Conversions between DateTimeOffset and DateTime
-* Changing time zone of DateTimeOffset
+* Changing time zone within DateTimeOffset
 * Examples with current date, time and time zone
