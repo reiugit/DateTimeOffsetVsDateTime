@@ -26,18 +26,12 @@ Print("Now    TimeZone changed", now.ToOffset(TimeSpan.FromHours(5)));
 
 // Converting to DateTime
 Console.WriteLine("\nConverting to DateTime:");
-var utcNow_AsDateTime = utcNow.DateTime;           // Kind=Unspecified
-var utcNow_AsLocalDateTime = utcNow.LocalDateTime; // Kind=Local
-var utcNow_AsUtcDateTime = utcNow.UtcDateTime;     // Kind=Utc
-var now_AsDateTime = now.DateTime;                 // Kind=Unspecified
-var now_AsLocalDateTime = now.LocalDateTime;       // Kind=Local
-var now_AsUtcDateTime = now.UtcDateTime;           // Kind=Utc
-Print("UtcNow  as DateTime", utcNow_AsDateTime);
-Print("UtcNow  as LocalDateTime", utcNow_AsLocalDateTime);
-Print("UtcNow  as UtcDateTime", utcNow_AsUtcDateTime);
-Print("Now     as DateTime", now_AsDateTime);
-Print("Now     as LocalDateTime", now_AsLocalDateTime);
-Print("Now     as UtcDateTime", now_AsUtcDateTime);
+Print("UtcNow  as DateTime", utcNow.DateTime);           // Kind=Unspecified
+Print("UtcNow  as LocalDateTime", utcNow.LocalDateTime); // Kind=Local
+Print("UtcNow  as UtcDateTime", utcNow.UtcDateTime);     // Kind=Utc
+Print("Now     as DateTime", now.DateTime);              // Kind=Unspecified
+Print("Now     as LocalDateTime", now.LocalDateTime);    // Kind=Local
+Print("Now     as UtcDateTime", now.UtcDateTime);        // Kind=Utc
 
 
 Console.WriteLine("\n\nPress any key to exit.");
