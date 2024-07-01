@@ -1,4 +1,4 @@
-# DateTimeOffset &nbsp;vs&nbsp; DateTime
+# DateTimeOffset &nbsp;vs.&nbsp; DateTime
 
 ### Comparison of DateTimeOffset with DateTime 
 
