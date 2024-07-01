@@ -1,6 +1,6 @@
 # DateTimeOffset &nbsp;vs.&nbsp; DateTime
 
-### Comparison of DateTimeOffset and DateTime 
+### Comparison of DateTimeOffset and DateTime  in .Net and C#  
 
 * Difference between DateTimeOffset and DateTime
 * Conversions between DateTimeOffset and DateTime
